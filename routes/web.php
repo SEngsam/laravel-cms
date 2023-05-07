@@ -80,6 +80,14 @@ Route::group(
             'store' => 'contact.save'
 
         ]);
+
+
+        Route::get('settings', 'App\Http\Controllers\SettingsController@index');
+        Route::post('settings/main', 'App\Http\Controllers\SettingsController@updatemain')->name('update.main');
+        Route::post('settings/social', 'App\Http\Controllers\SettingsController@updatesocial')->name('update.social');
+        Route::post('settings/meta', 'App\Http\Controllers\SettingsController@updatemeta')->name('update.meta');
+
+
         Route::get('test', function () {
             return view('pages\backend\dashoard');
         });
