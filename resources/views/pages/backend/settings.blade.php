@@ -88,8 +88,7 @@
                                                     <label class="required fw-bold fs-6 mb-2">Description (English)</label>
 
 
-                                                        <textarea id="editor-en" rows="4" name="website_description_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MainSettings) {{ $MainSettings->website_description_en }}@endif
-                                                    </textarea>
+                   <textarea id="editor-en" rows="4" name="website_description_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MainSettings){{ $MainSettings->website_description_en }}@endif</textarea>
  <div class="text-danger">{{$errors->first('website_description_en')}}</div>
                                                 </div>
 
@@ -97,8 +96,7 @@
 
                                                     <label class="required fw-bold fs-6 mb-2">Description (العربية)</label>
 
-                                                     <textarea id="editor-en" rows="4" name="website_description_ar" class="form-control form-control-solid mb-3 mb-lg-0"> @if($MainSettings) {{ $MainSettings->website_description_ar }}@endif
-                                                    </textarea>
+                   <textarea id="editor-en" rows="4" name="website_description_ar" class="form-control form-control-solid mb-3 mb-lg-0"> @if($MainSettings) {{ $MainSettings->website_description_ar }}@endif</textarea>
  <div class="text-danger">{{$errors->first('website_description_ar')}}</div>
                                                 </div>
 
@@ -214,9 +212,7 @@
                               <div class="fv-row mb-7">
 
              <label class="required fw-bold fs-6 mb-2">Website Map (English)</label>
-                                                        <textarea id="editor-en" rows="4" name="map"  class="form-control form-control-solid mb-3 mb-lg-0">
-                                                  @if($SocialSettings){{ $SocialSettings->map }}@endif
-                                                </textarea>
+                  <textarea id="editor-en" rows="4" name="map"  class="form-control form-control-solid mb-3 mb-lg-0">@if($SocialSettings){{ $SocialSettings->map }}@endif</textarea>
  <div class="text-danger">{{$errors->first('map')}}</div>
                                 </div>
 
@@ -257,9 +253,7 @@
 
                                                 <div class="fv-row mb-7">
                                                     <label class="required fw-bold fs-6 mb-2">Keywords (English)</label>
-                                                        <textarea id="editor-en" rows="4" name="keywords_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->keywords_en }}
-                                                        @endif
-                                                    </textarea>
+         <textarea id="editor-en" rows="4" name="keywords_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->keywords_en }}@endif</textarea>
   <div class="text-danger">{{$errors->first('keywords_en')}}</div>
                                                 </div>
 
@@ -268,19 +262,17 @@
 
                                                     <label class="required fw-bold fs-6 mb-2">Keywords (العربية)</label>
 
-                                                     <textarea id="editor-en" rows="4" name="keywords_ar" class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->keywords_ar }}   @endif
-                                                    </textarea>
+                       <textarea id="editor-en" rows="4" name="keywords_ar" class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->keywords_ar }}@endif</textarea>
         <div class="text-danger">{{$errors->first('keywords_ar')}}</div>
                                                 </div>
 
 
 
                                                      <div class="fv-row mb-7">
-                                                    <label class="required fw-bold fs-6 mb-2">Meta Description (English)</label>
+                    <label class="required fw-bold fs-6 mb-2">Meta Description (English)</label>
 
 
-                                                        <textarea id="editor-en" rows="4" name="description_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->description_en }}   @endif
-                                                    </textarea>
+       <textarea id="editor-en" rows="4" name="description_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{$MateSettings->description_en }}@endif</textarea>
         <div class="text-danger">{{$errors->first('description_en')}}</div>
                                                 </div>
 
@@ -288,8 +280,7 @@
 
                                                     <label class="required fw-bold fs-6 mb-2">Meta Description (العربية)</label>
 
-                                                     <textarea id="editor-en" rows="4" name="description_ar" class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->description_ar }}   @endif
-                                                    </textarea>
+             <textarea id="editor-en" rows="4" name="description_ar" class="form-control form-control-solid mb-3 mb-lg-0">@if($MateSettings){{ $MateSettings->description_ar }}@endif</textarea>
    <div class="text-danger">{{$errors->first('description_ar')}}</div>
                                                 </div>
 
