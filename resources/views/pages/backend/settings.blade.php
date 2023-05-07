@@ -61,7 +61,7 @@
                             <div class="col-6">
                                            <div class="mb-7">
 
-                                                    <label class="required fw-bold fs-6 mb-5">Adress (English)</label>
+                                                    <label class="required fw-bold fs-6 mb-5">Website Adress (English)</label>
 
                                                     <input type="text" name="website_adress_en"
                                                         class="form-control form-control-solid mb-3 mb-lg-0"
@@ -74,7 +74,7 @@
 
                                                 <div class="mb-7">
 
-                                                    <label class="required fw-bold fs-6 mb-5">Adress (العربية)</label>
+                                                    <label class="required fw-bold fs-6 mb-5">Website Adress (العربية)</label>
 
 
                                                         <input type="text" name="website_adress_ar"
@@ -85,7 +85,7 @@
                                       </div>  </div>
                                                 <div class="fv-row mb-7">
 
-                                                    <label class="required fw-bold fs-6 mb-2">Description (English)</label>
+                                                    <label class="required fw-bold fs-6 mb-2">Website Description (English)</label>
 
 
                    <textarea id="editor-en" rows="4" name="website_description_en"  class="form-control form-control-solid mb-3 mb-lg-0">@if($MainSettings){{ $MainSettings->website_description_en }}@endif</textarea>
@@ -94,7 +94,7 @@
 
                                                 <div class="fv-row mb-7">
 
-                                                    <label class="required fw-bold fs-6 mb-2">Description (العربية)</label>
+                                                    <label class="required fw-bold fs-6 mb-2">Website Description (العربية)</label>
 
                    <textarea id="editor-en" rows="4" name="website_description_ar" class="form-control form-control-solid mb-3 mb-lg-0"> @if($MainSettings) {{ $MainSettings->website_description_ar }}@endif</textarea>
  <div class="text-danger">{{$errors->first('website_description_ar')}}</div>
@@ -185,7 +185,7 @@
                              <div class="col-4">
                         <div class="fv-row mb-7">
 
-                    <label class="required fw-bold fs-6 mb-2">Website twitter</label>
+                    <label class="required fw-bold fs-6 mb-2">twitter</label>
                            <input type="text" name="twitter"
                              class="form-control form-control-solid mb-3 mb-lg-0"
                             placeholder="Website twitter" value="@if($SocialSettings){{ $SocialSettings->twitter }}@endif" />
@@ -197,7 +197,7 @@
                                      <div class="col-4">
                         <div class="fv-row mb-7">
 
-                    <label class="required fw-bold fs-6 mb-2">Website instagram</label>
+                    <label class="required fw-bold fs-6 mb-2">instagram</label>
                            <input type="text" name="instagram"
                              class="form-control form-control-solid mb-3 mb-lg-0"
                             placeholder="Website instagram" value="@if($SocialSettings){{ $SocialSettings->instagram }}@endif" />
@@ -211,7 +211,7 @@
 
                               <div class="fv-row mb-7">
 
-             <label class="required fw-bold fs-6 mb-2">Website Map (English)</label>
+             <label class="required fw-bold fs-6 mb-2">Website Map </label>
                   <textarea id="editor-en" rows="4" name="map"  class="form-control form-control-solid mb-3 mb-lg-0">@if($SocialSettings){{ $SocialSettings->map }}@endif</textarea>
  <div class="text-danger">{{$errors->first('map')}}</div>
                                 </div>
