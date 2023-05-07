@@ -82,7 +82,7 @@ Route::group(
         ]);
 
 
-        Route::get('settings', 'App\Http\Controllers\SettingsController@index');
+        Route::get('settings', 'App\Http\Controllers\SettingsController@index')->name('settings');;
         Route::post('settings/main', 'App\Http\Controllers\SettingsController@updatemain')->name('update.main');
         Route::post('settings/social', 'App\Http\Controllers\SettingsController@updatesocial')->name('update.social');
         Route::post('settings/meta', 'App\Http\Controllers\SettingsController@updatemeta')->name('update.meta');

@@ -158,11 +158,11 @@ data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle"
                         </a>
                     </div>
                     <div class="menu-item">
-                        <a class="menu-link" href="../../demo1/dist/account/billing.html">
+                        <a class="menu-link" href="{{ route('settings') }}">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">Billing</span>
+                            <span class="menu-title">settings</span>
                         </a>
                     </div>
                     <div class="menu-item">

@@ -30,15 +30,13 @@ class SettingsController extends Controller
             'website_adress_en'=>"required",
         ]);
 
-        MainSettings::updateOrCreate([
-            'website_name_ar' => $request->website_name_ar,
-            'website_name_en' =>  $request->website_name_en,
-            'website_description_ar' => $request->website_description_ar,
-            'website_description_en' =>  $request->website_description_en,
-            'website_adress_ar' => $request->website_adress_ar,
-            'website_adress_en' => $request->website_adress_en,
-        ]);
+        $MainSettings=MainSettings::first();
 
+       if($MainSettings){
+        $MainSettings->update($request->all());
+       }else{
+        MainSettings::create($request->all());
+       }
 
         return Redirect::back();
     }
@@ -52,14 +50,13 @@ class SettingsController extends Controller
 
         ]);
 
-        SocialSettings::updateOrCreate([
-            'phone' => $request->phone,
-            'email' =>  $request->email,
-            'facebook' => $request->facebook,
-            'twitter' =>  $request->twitter,
-            'instagram' => $request->instagram,
-            'map' => $request->map,
-        ]);
+        $SocialSettings=SocialSettings::first();
+
+        if($SocialSettings){
+         $SocialSettings->update($request->all());
+        }else{
+            SocialSettings::create($request->all());
+        }
 
         return Redirect::back();
     }
@@ -73,13 +70,13 @@ class SettingsController extends Controller
            'description_en'=>"required",
         ]);
 
-        MateSettings::updateOrCreate([
-            'keywords_ar' => $request->keywords_ar,
-            'keywords_en' =>  $request->keywords_en,
-            'description_ar' => $request->description_ar,
-            'description_en' =>  $request->description_en,
-
-        ]);
+    
+        $MateSettings=MateSettings::first();
+        if($MateSettings){
+         $MateSettings->update($request->all());
+        }else{
+            MateSettings::create($request->all());
+        }
 
         return Redirect::back();
     }
