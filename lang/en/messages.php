@@ -38,6 +38,6 @@ return [
     'Actions'=>'Actions',
 
     'Settings'=>'Settings',
-    ''=>'',
+    'Logo'=>'Logo',
     ''=>'',
 ];

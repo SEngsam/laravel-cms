@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ParttnerController;
 use App\Http\Controllers\Jops\JoinUsController;
 use App\Http\Controllers\Project\ProjectController;
 use App\Http\Controllers\Project\CategoryController;
@@ -78,6 +80,13 @@ Route::group(
             'index' => 'contact.list',
             'create' => 'contact.add',
             'store' => 'contact.save'
+
+        ]);
+
+        Route::resource('parttners', ParttnerController::class)->names([
+            'index' => 'parttners.list',
+            'create' => 'parttners.add',
+            'store' => 'parttners.save'
 
         ]);
 

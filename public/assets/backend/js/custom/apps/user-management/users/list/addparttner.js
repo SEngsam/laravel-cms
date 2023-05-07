@@ -1,3 +1,4 @@
+
 "use strict";
 var KTUsersAddUser = (function () {
 
@@ -164,13 +165,3 @@ var KTUsersAddUser = (function () {
 KTUtil.onDOMContentLoaded(function () {
     KTUsersAddUser.init();
 });
-
-
-
-
-
-
-
-
-
-
