@@ -162,7 +162,7 @@ data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle"
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">settings</span>
+                            <span class="menu-title">{{ __('messages.Settings') }}</span>
                         </a>
                     </div>
                     <div class="menu-item">
