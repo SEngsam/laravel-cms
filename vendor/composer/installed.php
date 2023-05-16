@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '42ef77222142d57f191beb8e95bd9f9a0d100f16',
+        'reference' => 'ed0a294fc5bcfd837add97e85afb6cf3177bed69',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -385,7 +385,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '42ef77222142d57f191beb8e95bd9f9a0d100f16',
+            'reference' => 'ed0a294fc5bcfd837add97e85afb6cf3177bed69',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -742,8 +742,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -762,12 +762,12 @@
             ),
         ),
         'psy/psysh' => array(
-            'pretty_version' => 'v0.11.16',
-            'version' => '0.11.16.0',
+            'pretty_version' => 'v0.11.17',
+            'version' => '0.11.17.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psy/psysh',
             'aliases' => array(),
-            'reference' => '151b145906804eea8e5d71fea23bfb470c904bfb',
+            'reference' => '3dc5d4018dabd80bceb8fe1e3191ba8460569f0a',
             'dev_requirement' => false,
         ),
         'ralouphie/getallheaders' => array(
@@ -966,12 +966,12 @@
             'dev_requirement' => true,
         ),
         'spatie/laravel-ignition' => array(
-            'pretty_version' => '2.1.0',
-            'version' => '2.1.0.0',
+            'pretty_version' => '2.1.1',
+            'version' => '2.1.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../spatie/laravel-ignition',
             'aliases' => array(),
-            'reference' => '3718dfb91bc5aff340af26507a61f0f9605f81e8',
+            'reference' => '802c7e27754456e45134f1a9d29ab7df4b6cb9e4',
             'dev_requirement' => true,
         ),
         'symfony/console' => array(

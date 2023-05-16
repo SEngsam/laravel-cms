@@ -36,8 +36,8 @@ return [
     'Projects'=>'Projects',
     'Status'=>'Status',
     'Actions'=>'Actions',
-    
-    ''=>'',
-    ''=>'',
+
+    'Settings'=>'Settings',
+    'Logo'=>'Logo',
     ''=>'',
 ];

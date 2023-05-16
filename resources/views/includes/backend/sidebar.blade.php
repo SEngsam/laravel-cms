@@ -158,19 +158,19 @@ data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle"
                         </a>
                     </div>
                     <div class="menu-item">
-                        <a class="menu-link" href="../../demo1/dist/account/billing.html">
+                        <a class="menu-link" href="{{ route('settings') }}">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">Billing</span>
+                            <span class="menu-title">{{ __('messages.Settings') }}</span>
                         </a>
                     </div>
                     <div class="menu-item">
-                        <a class="menu-link" href="../../demo1/dist/account/statements.html">
+                        <a class="menu-link" href="{{ route('parttners.list') }}">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">Statements</span>
+                            <span class="menu-title">Parttners</span>
                         </a>
                     </div>
                     <div class="menu-item">

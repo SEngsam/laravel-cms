@@ -5124,13 +5124,13 @@
     <script>
         var hostUrl = "{{ asset('assets/backend/') }}";
     </script>
-  {{--   <script type="text/javascript">
+   <script type="text/javascript">
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-        </script> --}}
+        </script> 
     <!--begin::Global Javascript Bundle(used by all pages)-->
     <script src="{{ asset('assets/backend/plugins/global/plugins.bundle.js') }}"></script>
     <script src="{{ asset('assets/backend/js/scripts.bundle.js') }}"></script>
